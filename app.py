@@ -81,7 +81,7 @@ sent_val = st.sidebar.slider("Sentiment (Tone)", -1.0, 1.0, 0.0)
 # --- 3. EXPLAINING THRESHOLDS ---
 with st.expander("📊 Understanding Risk Scores (Thresholds)"):
     st.write("""
-    Fuzzy Score 0 to 10 ke darmayan hota hai:
+    Fuzzy Score 0 to 10 :
     - **0.0 - 4.0 (NONE):** The system classifies the content as Safe. No moderation action is required, and the content is permitted.
     - **4.0 - 7.0 (FLAG):** The system identifies the content as Suspicious or ambiguous. It is flagged for manual review by a human moderator.
     - **7.0 - 10.0 (REMOVE):** SysThe system classifies the content as Harmful or dangerous. It is automatically blocked or deleted to ensure safety.
